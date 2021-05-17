@@ -30,10 +30,25 @@ section {
 	&.hero {
 		grid-column-start: 1;
 		grid-column-end: 3;
+
+		& > h2 {
+			color: hsl(179, 62%, 43%);
+			margin: 8px 0 24px;
+		}
+
+		& > h3 {
+			color: hsl(71, 73%, 54%);
+		}
+
+		& > p {
+			color: hsl(227, 8%, 62%);
+			margin-bottom: 16px;
+		}
 	}
 
 	&.price-part {
 		background: hsl(179, 62%, 43%);
+		color: white;
 	}
 
 	&.why-us {
