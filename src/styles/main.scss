@@ -46,12 +46,25 @@ section {
 		}
 	}
 
+	&.price-part,
+	&.why-us {
+		color: white;
+	}
+
 	&.price-part {
 		background: hsl(179, 62%, 43%);
-		color: white;
 	}
 
 	&.why-us {
 		background: hsl(179, 62%, 53%);
+	}
+}
+
+#price {
+	margin: 8px 0;
+	color: hsl(227, 8%, 62%);
+	& > span {
+		font-size: 24px;
+		font-weight: 700;
 	}
 }
